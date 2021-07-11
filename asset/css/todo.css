@@ -151,7 +151,7 @@
 }
 
 .checkbtn {
-    background: url(/asset/images/delete_X.png) no-repeat;
+    background: url(./asset/images/delete_X.png) no-repeat;
     position: absolute;
     right: 0;
     width: 20px;
