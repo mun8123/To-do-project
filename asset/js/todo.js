@@ -26,6 +26,7 @@ function paintToDo(newTodo) {
 
     const button = document.createElement("button");
     button.className = "checkbtn";
+    button.innerText = "✕";
 
     li.appendChild(span);
     li.appendChild(button);

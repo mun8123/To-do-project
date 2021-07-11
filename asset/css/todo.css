@@ -22,7 +22,6 @@
 
 #main-form-left {
     display: flex;
-    position: relative;
     flex-direction: column;
     width: 500px;
     margin-right: 65px;
@@ -40,8 +39,6 @@
 }
 
 #task-progress {
-    position: absolute;
-    top: 321px;
     width: 100%;
     padding: 45px;
     font-weight: 300;
@@ -151,8 +148,9 @@
 }
 
 .checkbtn {
-    background: url(/todoProject/asset/images/delete_X.png) no-repeat;
     position: absolute;
+    background: transparent;
+    color: var(--secondary-color);
     right: 0;
     width: 20px;
     height: 20px;
